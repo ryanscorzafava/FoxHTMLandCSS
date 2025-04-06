@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Quicksand, Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  body {
+    background-color: #e8dab2;
+  }
+
+  .hero-img {
+    position: relative;
+  }
+
+  .herotext {
+    background-color: #ffffffd2;
+    color: #2d386a;
+    position: absolute;
+    text-align: center;
+    top: 140%;
+    right: 10%;
+    width: 80%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  h1 {
+    font-family: "Bree Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h3 a {
+    background-color: #e8dab2;
+    color: #2d386a;
+    padding: .25rem .5rem .25rem .5rem;
+    font-family: "Bree Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h4 a {
+    font-family: "Bree Serif", Georgia, 'Times New Roman', Times, serif;
+    color: #c56039;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  p {
+    font-size: 1rem;
+    font-family: "Quicksand", Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+
+  .logo {
+    background-color: #2d386a;
+  }
+
+  .header-logo {
+    scale: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .homelogo {
+    scale: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .nav {
+    background-color: #2d386a;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: -3%;
+    padding-bottom: 10%;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: auto;
+  }
+
+  .nav-links li {
+    display: flex;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-family: "Quicksand", Verdana, Geneva, Tahoma, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .nav-links li:hover {
+    background-color: #ffffff34;
+    border-radius: .25rem;
+  }
+  
+  #menu-cards {
+    background-color: #c56039;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .mc {
+    margin: auto;
+  }
+
+  .mc img {
+    max-width: 13.125rem;
+    max-height: 16.5;
+  }
+
+  .mc a {
+    display: block;
+    max-width: 13.125rem;
+    align-content: center;
+    text-align: center;
+  }
+
+  .mc-caption {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .mc-caption p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #e8dab2;
+  }
+
+  button {
+    display: inline-block;
+    background-color: #e8dab2;
+    border: none;
+    padding: .5rem .5rem;
+    border-radius: .25rem;
+    text-align: center;
+  }
+
+  button a {
+    color: #2d386a;
+    font-family: "Bree Serif", Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .learn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  .learn h3 {
+    font-family: "Bree Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #c56039;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .learn img {
+    padding-top: 3rem;
+  }
+
+  #about {
+    background-color: #e8dab2;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .about-hero img {
+    max-width: 15rem;
+    max-height: 15rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .about1 {
+    height: 18rem;
+    width: 18rem; 
+    margin-bottom: 28rem;
+  }
+
+  .about1 h1 {
+    font-family: "Bree Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    color: #2d386a;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about1 p {
+    font-family: "Quicksand", Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #2d386a;
+  }
+
+  #about2 {
+    background-color: #c56039;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  #about2 h1 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: #e8dab2;
+  }
+
+  .team h3 {
+    color: #e8dab2;
+    font-family: "Bree Serif", Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+  }
+
+  .team p {
+    color: #e8dab2;
+    font-family: "Quicksand", Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 1rem;
+  }
+
+  .team img {
+    max-width: 11.25rem;
+    max-height: 13.75rem;
+  }
+
+  .menu-top p {
+    color: #2d386a;
+    font-family: "Quicksand", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .75rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .hero-sp-img img {
+    display: block;
+    width: 100%;
+    max-height: 9rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .hero-bk-img img {
+    display: block;
+    width: 100%;
+    max-height: 9rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .hero-ds-img img {
+    display: block;
+    width: 100%;
+    max-height: 9rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  #specials {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+  }
+
+  #specials h2 {
+    font-family: "Bree Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #c56039;
+    font-weight: 500;
+  }
+
+  #specials h3 {
+    font-family: "Bree Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #2d386a;
+    padding-bottom: 1rem;
+  }
+
+  .description {
+    color: #c56039;
+    margin-bottom: 1rem;
+  }
+
+  #bakery {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+  }
+
+  #bakery h2 {
+    font-family: "Bree Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #c56039;
+    font-weight: 500;
+  }
+
+  #bakery h3 {
+    font-family: "Bree Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #2d386a;
+    padding-bottom: 1rem;
+  }
+
+  #desserts {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+  }
+
+  #desserts h2 {
+    font-family: "Bree Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #c56039;
+    font-weight: 500;
+  }
+
+  #desserts h3 {
+    font-family: "Bree Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #2d386a;
+    padding-bottom: 1rem;
+  }
+
+  .price {
+    font-family: "Quicksand", Verdana, Geneva, Tahoma, sans-serif;
+    color: #2d386a;
+    margin-bottom: 1rem;
+  }
+
+
+  #catering-icons h2 {
+    font-family: "Bree Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2d386a;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .breakfast img {
+    max-width: 12rem;
+    margin-left: 20%;
+    margin-top: 2rem;
+  }
+
+  .lunch img {
+    max-width: 12rem;
+    margin-left: 20%;
+  }
+
+  .dstrays img {
+    max-width: 12rem;
+    margin-left: 20%;
+  }
+
+  footer {
+    background-color: #2d386a;
+    text-align: center;
+  }
+
+  footer li {
+    color: #fff;
+  }
+
+  footer li a:hover {
+    background-color: #ffffff34;
+    border-radius: .25rem;
+    padding: .25rem;
+  }
+
+  footer ul img {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+
+  }
+
+input[type=text], select, textarea {
+  font-family: "Quicksand", Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #F8F4E7;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #c56039;
+  color: #e8dab2;
+  font-family: "Quicksand", Verdana, Geneva, Tahoma, sans-serif;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #2d386a;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #e8dab2;
+  padding: 20px;
+
+}
